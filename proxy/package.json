@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Renders a proxy for the carousel_module",
   "scripts": {
-    "start": "nodemon ./proxy/public/server.js"
+    "start": "nodemon ./public/server.js"
   },
   "repository": {
     "type": "git",
