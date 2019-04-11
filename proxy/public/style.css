@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fillerImg {
+  width: 100%;
+}
+
+.fillerImgLeft {
+  width: 55%;
+  padding-left: 5%;
+}
+
+.fillerImgBottom {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.leftSection {
+  width: 60%;
+}
+
+#booking-module {
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  margin-top: 1rem;
+  top: 1rem;
+  bottom: 1rem;
+  width: 35%;
+  padding-right: 5%;
+}
+
+#reviews {
+  width: 60%;
+  padding-left: 5%
+}
+
+#nearbyHomes {
+  width: 100vw;
+  overflow: hidden;
+  padding-left: 5%;
+  padding-right: 5%;
+}
