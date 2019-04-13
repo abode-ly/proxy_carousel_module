@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  proxy_carousel_module:
+    image: proxy_carousel_module
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
