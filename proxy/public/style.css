@@ -23,6 +23,19 @@
   width: 60%;
 }
 
+#booking-bar {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 90, 96);
+  border-radius: 5px;
+}
+
 #booking-module {
   position: -webkit-sticky;
   position: sticky;
@@ -44,4 +57,20 @@
   overflow: hidden;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+@media only screen and (min-width: 744px) {
+  #booking-bar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 744px) {
+  #booking-module {
+    display: none;
+  }
+
+  #reviews {
+    width: 100%;
+  }
 }
