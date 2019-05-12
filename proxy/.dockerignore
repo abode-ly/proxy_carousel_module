@@ -8,10 +8,5 @@ docker-compose*
 .env
 */bin
 */obj
-README.md
 LICENSE
 .vscode
-booking_module
-carousel_module
-reviews_module
-similar_homes_module
